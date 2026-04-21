@@ -1,0 +1,79 @@
+/* Puedes agregar tus propios estilos para personalizar Bootstrap */
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+/* Navbar */
+.navbar-brand {
+    font-weight: bold;
+}
+
+/* Hero section */
+#inicio {
+    min-height: 500px;
+}
+
+#inicio img {
+    max-width: 100%;
+    height: auto;
+    transition: transform 0.3s ease;
+}
+
+#inicio img:hover {
+    transform: scale(1.02);
+}
+
+#inicio h1 {
+    font-weight: 700;
+}
+
+#inicio hr {
+    border-top: 3px solid rgba(255,255,255,0.5);
+    width: 100px;
+    margin: 1.5rem auto;
+}
+
+#inicio .lead {
+    font-size: 1.15rem;
+    line-height: 1.8;
+}
+
+#inicio h4 {
+    font-weight: 600;
+    margin-top: 2rem;
+}
+
+/* Cards con hover effect */
+.card {
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
+
+/* Sections */
+section {
+    scroll-margin-top: 70px; /* Para navegación suave */
+}
+
+/* Carousel */
+.carousel-item img {
+    max-height: 300px;
+    object-fit: contain;
+    margin: 0 auto;
+}
+
+/* Form styling */
+#contacto form {
+    background: white;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
