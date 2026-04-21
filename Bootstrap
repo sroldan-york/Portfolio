@@ -1,0 +1,36 @@
+## Clases principales de Bootstrap que debes conocer
+
+### Sistema de Grid (Columnas)
+- `container` - contenedor centrado
+- `row` - fila para columnas
+- `col-md-4` - columna de 4/12 (33%) en pantallas medianas
+- `col-lg-6` - columna de 6/12 (50%) en pantallas grandes
+
+### Espaciado
+- `py-5` - padding vertical (arriba y abajo)
+- `px-3` - padding horizontal (izquierda y derecha)
+- `mb-4` - margin bottom (abajo)
+- `mt-3` - margin top (arriba)
+
+### Componentes
+- `btn btn-primary` - botones
+- `card` - tarjetas
+- `navbar` - barra de navegación
+- `form-control` - inputs y formularios
+
+### Colores
+- `bg-primary` - fondo azul
+- `bg-dark` - fondo oscuro
+- `text-white` - texto blanco
+- `text-center` - texto centrado
+
+## Organización de archivos
+```
+mi-proyecto/
+│
+├── index.html
+├── styles.css          (estilos personalizados opcionales)
+├── script.js           (JavaScript personalizado opcional)
+│
+└── images/
+    └── logo.png
