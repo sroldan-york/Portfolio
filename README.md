@@ -31,4 +31,4 @@ Personal portfolio repository for Santiago Roldan — Cybersecurity student at Y
 
 ## Live Site
 
-[View Portfolio](https://sroldan-york.github.io/Portafolio/)
+[View Portfolio](https://sroldan-york.github.io/Portfolio/)
