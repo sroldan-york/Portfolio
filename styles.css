@@ -16,17 +16,16 @@ body {
 /* Hero section */
 #inicio {
     min-height: 500px;
-    background-image: url('img/profile.jpeg');
-    background-size: cover;
-    background-position: center top;
-    position: relative;
 }
 
-#inicio::before {
-    content: '';
-    position: absolute;
-    inset: 0;
-    background: rgba(13, 110, 253, 0.72);
+#inicio img {
+    max-width: 100%;
+    height: auto;
+    transition: transform 0.3s ease;
+}
+
+#inicio img:hover {
+    transform: scale(1.02);
 }
 
 #inicio h1 {
